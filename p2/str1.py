@@ -21,3 +21,24 @@ print('chm is:', chm)
 print(d[1:], d[:3], d[:], d[1:5:2])
 
 #d[2] = 'o' # error step
+
+
+########
+
+int1 = 103
+int2 = 14
+int3 = 2
+print(int1/int2)
+print(int1//int2)
+print(int1%int2)
+print(int2**int3)
+
+#param = "string" + 15 #error
+
+param = "string" + str(15)
+
+n1 = float(input("Enter the first number: "))
+n2 = float(input("Enter the second number: "))
+n3 = float(n1) + float(n2)
+print(str(n1) + " plus " + str(n2) + " = ", n3)
+print("{:7.2f} plus {:7.2f} = {:8.2f}".format(n1, n2, n3))
