@@ -45,3 +45,15 @@ def task2():
   listNZ.sort()
   print(listAM)
   print(listNZ)
+
+def task3():
+  akro = ''
+  print('Enter your words:')
+  while True:
+    i = input()
+    if(i == ''):
+      return akro
+    else:
+      akro += i[0]
+
+    
